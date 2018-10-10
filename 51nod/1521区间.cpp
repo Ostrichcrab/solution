@@ -1,3 +1,8 @@
+/*
+1,在一段距离能放战舰的数量是: (r - l)/(a + 1); 其中 r l 是开边界。 
+2， 那么中间被一个元素隔开，两端孤立的距离段则是： (r - mid)/(a + 1),  (mid - l)/(a + 1) 
+所以，按照上面的思路，可以进行计算。 
+*/
 #include<cstdio>
 using namespace std;
 const int N = 2e5+7;
